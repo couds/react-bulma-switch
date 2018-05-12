@@ -14,8 +14,15 @@ You can find the Storybook of all components [here](https://couds.github.io/reac
 
 ### To Install
 
-```npm install react-bulma-components``` or ```yarn add -E react-bulma-components```
-```npm install react-bulma-switch``` or ```yarn add -E react-bulma-switch```
+```
+npm install react-bulma-components react-bulma-switch
+```
+
+or
+
+```
+yarn add -E react-bulma-components react-bulma-switch
+```
 
 ### To Use
 

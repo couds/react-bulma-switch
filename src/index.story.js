@@ -56,6 +56,7 @@ storiesOf('Switch', module)
       <Switch value rounded>Switch Rounded</Switch>
       <Switch value thin>Switch Thin</Switch>
       <Switch value rtl>Switch Text on the left</Switch>
-      <Switch value outlined>Switch Text on the left</Switch>
+      <Switch value outlined>Switch Outlined</Switch>
+      <Switch value disabled>Switch Disabled</Switch>
     </div>
   )));

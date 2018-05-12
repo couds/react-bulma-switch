@@ -10,6 +10,7 @@ exports[`Switch component Should concat Bulma class with classes in props 1`] = 
   <input
     checked={false}
     className="other-class test"
+    disabled={false}
     id="test"
     type="checkbox"
     value={false}
@@ -32,6 +33,7 @@ exports[`Switch component Should have Switch classname 1`] = `
   <input
     checked={false}
     className="switch"
+    disabled={false}
     id="test"
     type="checkbox"
     value={false}
