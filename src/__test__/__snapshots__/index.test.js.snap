@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch component Should Exist 1`] = `[Function]`;
+
+exports[`Switch component Should concat Bulma class with classes in props 1`] = `
+<div
+  className="field"
+  style={Object {}}
+>
+  <input
+    checked={false}
+    className="other-class test"
+    id="test"
+    type="checkbox"
+    value={false}
+  />
+  <label
+    className="label"
+    htmlFor="test"
+    style={Object {}}
+  >
+    Facebook
+  </label>
+</div>
+`;
+
+exports[`Switch component Should have Switch classname 1`] = `
+<div
+  className="field"
+  style={Object {}}
+>
+  <input
+    checked={false}
+    className="switch"
+    id="test"
+    type="checkbox"
+    value={false}
+  />
+  <label
+    className="label"
+    htmlFor="test"
+    style={Object {}}
+  >
+    Facebook
+  </label>
+</div>
+`;
