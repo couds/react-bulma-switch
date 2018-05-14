@@ -4,12 +4,12 @@ exports[`Switch component Should Exist 1`] = `[Function]`;
 
 exports[`Switch component Should concat Bulma class with classes in props 1`] = `
 <div
-  className="field"
+  className="field other-class test"
   style={Object {}}
 >
   <input
     checked={false}
-    className="other-class test"
+    className="switch"
     disabled={false}
     id="test"
     type="checkbox"
