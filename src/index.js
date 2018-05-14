@@ -19,6 +19,7 @@ export default class Switch extends React.PureComponent {
     disabled: PropTypes.bool,
     color: PropTypes.oneOf(Object.values(CONSTANTS.COLORS)),
     size: PropTypes.oneOf(['small', 'medium', 'large']),
+    className: PropTypes.string,
   }
 
   static defaultProps = {
@@ -32,6 +33,7 @@ export default class Switch extends React.PureComponent {
     disabled: false,
     color: null,
     size: null,
+    className: null,
   }
 
   constructor(props) {
@@ -40,9 +42,9 @@ export default class Switch extends React.PureComponent {
   }
 
   render() {
-    const { children, id, value, rtl, color, size, rounded, outlined, thin, ...props } = this.props;
+    const { children, className, id, value, rtl, color, size, rounded, outlined, thin, ...props } = this.props;
     return (
-      <Field>
+      <Field className={className}>
         <input
           id={this.id}
           type="checkbox"
