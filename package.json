@@ -1,6 +1,6 @@
 {
   "name": "react-bulma-switch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Switch Bulma extension using react-bulma-components",
   "main": "dist",
   "scripts": {
