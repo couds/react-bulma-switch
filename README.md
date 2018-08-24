@@ -1,3 +1,8 @@
+# NOT MAINTAINED ANYMORE. 
+
+Sorry if you were using this repo, I'mnot maintaining it anymore, I have my hand full with react-bulma-components and other projects.
+
+
 # <div style="display: flex; align-items: center"><img src="https://raw.githubusercontent.com/couds/react-bulma-components/master/docs/images/logo.png" width="40" style="margin-top: 3px" /><span>React-bulma-switch</span></div>
 
 
